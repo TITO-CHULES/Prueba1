@@ -13,12 +13,9 @@ public class Launcher : MonoBehaviourPunCallbacks
     // Start is called before the first frame update
     void Start()
     {
-<<<<<<< HEAD
-        Debug.Log("Corrección de bug aplicada");
-=======
-        Debug.Log("Nueva funcionalidad añadida");
->>>>>>> nueva-funcionalidad
-        PhotonNetwork.JoinRandomOrCreateRoom();
+        Debug.Log("Corrección de bug aplicada y nueva funcionalidad añadida");
+        
+                PhotonNetwork.JoinRandomOrCreateRoom();
     }
 
 
